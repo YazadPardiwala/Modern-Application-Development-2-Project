@@ -1,0 +1,17 @@
+dir - windows
+
+dir - ubuntu
+"/mnt/e/yazad/Documents/IIT Madras BSc Data Science and Programming/2 Diploma Level/Diploma in Programming/E} Modern Application Development 2/Project v2 08-7/project/src/Ticket Show app"
+
+celery -A main.celery worker -l info
+
+celery -A main.celery beat --max-interval 1 -l info
+
+Python interpreter dir windows
+C:\Users\yazad\AppData\Local\Programs\Python\Python39\
+
+C:\Users\yazad\AppData\Local\Programs\Python\Python39\Scripts
+
+dir - ubuntu (drive d, zipped file clone)
+cd "/mnt/d/MAD 2 Project v2 08-7/project/src/Ticket Show app"
+
