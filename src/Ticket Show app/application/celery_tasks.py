@@ -24,7 +24,7 @@ def test_basic():
 @celery.task()
 def g_chat_webhook():
     """Google Chat incoming webhook quickstart."""
-    url = "https://chat.googleapis.com/v1/spaces/AAAAAI9mPdQ/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=rwA04hhiS3iA8wHJBb1O_Srx9pzNgXb2deQqoqA2t-I"
+    url = "a google chat url to receive webhooks"
     app_message = {
         'text': 'The real app says hello'}
     message_headers = {'Content-Type': 'application/json; charset=UTF-8'}
@@ -44,7 +44,7 @@ def daily_email_reminder(users):
     smtp = smtplib.SMTP('smtp.gmail.com', 587)
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('t9557749@gmail.com', 'kuqrxtirnxlcvifs')
+    smtp.login('an email id for smtp to log into', 'Once upon a time this was a code to let smtp log in to my email, it is no longer')
 
     # creating & sending mails
     #print(users)
